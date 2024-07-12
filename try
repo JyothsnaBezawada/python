@@ -1,0 +1,6 @@
+try:
+    print(x)
+except NameError:
+    print("something went wrong")
+except:
+    print("the try except is finished")
