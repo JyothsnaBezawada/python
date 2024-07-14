@@ -1,0 +1,6 @@
+str=input("enter the string:")
+substr=input("enter sub string:")
+if substr in str:
+    print("present")
+else:
+    print("not present")
