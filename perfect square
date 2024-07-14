@@ -1,0 +1,3 @@
+n=int(input("enter number:"))
+res=n*n
+print(res)
