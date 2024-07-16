@@ -1,0 +1,8 @@
+def ispalindrome(s):
+    return s==s[::-1]
+s=input("enter string:")
+P= ispalindrome()
+if P:
+   Print ('yes')
+else:
+   print('No')
