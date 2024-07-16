@@ -1,0 +1,5 @@
+s=input("enter string")
+c=input("enter string")
+f=0
+f=s.count(c)
+print(f)
