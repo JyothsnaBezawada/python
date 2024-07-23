@@ -1,0 +1,12 @@
+def lcm(n1,n2):
+    if n1>n2:
+        large=n1
+    else:
+        large=n2
+    while(True):
+        if((large%n1==0) and(large%n2==0)):
+            lcm=large
+            break
+        large=large+1
+    return lcm
+print("lcm of two numbers is:",lcm(50,100))
